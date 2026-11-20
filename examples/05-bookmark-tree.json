@@ -1,0 +1,10 @@
+[
+ {"id":"0","title":"","children":[
+  {"id":"1","parentId":"0","title":"ブックマークバー","children":[
+   {"id":"a","parentId":"1","title":"学習","children":[
+    {"id":"b1","parentId":"a","title":"JavaScript入門","url":"https://example.com/a","dateAdded":1710000000000},
+    {"id":"b2","parentId":"a","title":"もう一つの保存","url":"https://example.com/a","dateAdded":1720000000000}
+   ]}
+  ]}
+ ]}
+]

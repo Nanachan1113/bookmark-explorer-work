@@ -1,0 +1,29 @@
+:root {font: 14px/1.6 system-ui, 'Segoe UI', 'Noto Sans JP', sans-serif; color:#25324a; background:#f4f7fb;}
+* {box-sizing:border-box}
+body {margin:0; width: min(430px, 100vw); min-height: 470px; background:white;}
+header {background:#16345d;color:white;padding:18px 20px 14px}
+header h1 {font-size:19px;margin:0 0 3px}
+header p {font-size:12px;opacity:.85;margin:0}
+main {padding:15px 18px 20px}
+.metrics {display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin-bottom:15px}
+.metric {background:#eef4fc;border:1px solid #dbe6f4;border-radius:10px;text-align:center;padding:9px 3px}
+.metric b {display:block;font-size:22px;color:#123c79}
+.metric span {font-size:11px;color:#5d6b7d}
+.controls {display:grid;gap:9px;margin-bottom:12px}
+label {font-size:12px;font-weight:600;display:block}
+input[type=search],select {margin-top:3px;display:block;width:100%;border:1px solid #b9c9de;border-radius:8px;background:white;padding:8px;font:inherit;color:#25324a}
+input:focus-visible,select:focus-visible,button:focus-visible {outline:3px solid #a7ccff;outline-offset:1px}
+.inline {display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.toggle {display:flex;align-items:center;gap:6px;padding-top:18px}
+button {background:#245bb4;color:white;border:0;border-radius:8px;padding:9px 11px;cursor:pointer;font:inherit;font-weight:600}
+button:hover {background:#1f4a91}
+button:disabled {opacity:.6;cursor:wait}
+#status {font-size:12px;background:#edf5ff;color:#254368;border-radius:8px;padding:9px;margin:10px 0}
+#status[data-state=error] {background:#fff0f0;color:#9d2929}
+#status[data-state=empty] {background:#fff9e7;color:#79530e}
+#bookmark-list {padding:0;margin:10px 0;list-style:none;display:grid;gap:8px;max-height:270px;overflow:auto}
+#bookmark-list li {border:1px solid #e0e6ed;padding:10px 11px;border-radius:9px;overflow-wrap:anywhere}
+.item-title {font-weight:650;margin:0 0 3px}
+.item-folder {font-size:11px;color:#69778c;margin:0}
+.item-url {font-size:11px;color:#315e9a;margin:2px 0 0}
+.hint {font-size:11px;color:#667384}

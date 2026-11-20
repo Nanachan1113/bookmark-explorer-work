@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Bookmark Explorer — 教材用",
+  "version": "1.0.0",
+  "description": "ブックマークを読み取るだけの学習用Chrome拡張。変更・送信しません。",
+  "action": {
+    "default_title": "Bookmark Explorer",
+    "default_popup": "popup.html"
+  },
+    "permissions": [
+        "bookmarks",
+    "storage"
+  ],
+"minimum_chrome_version": "120",
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'; connect-src 'none'"
+  }
+}
